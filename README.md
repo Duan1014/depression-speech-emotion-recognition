@@ -4,8 +4,8 @@ This is my undergraduate project: Emotional recognition of depressive speech bas
 
 The dataset is the DAIC-WOZ Depression speech Corpus and the audio part in MODMA.
 
-First cut the sample into short 1-2s audio.
+Firstly, cut the sample into short 1-2s audio.
 
-Then, opensmile is used to extract audio features, and the method of pre-training + fine-tuning is adopted for migration. 
+Then, opensmile is used to extract audio features, and the method of pre-training + fine-tuning is adopted for transfer learning. 
 
 Finally, the recognition accuracy of 73% can be achieved on the small sample data set MODMA.
